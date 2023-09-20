@@ -4,27 +4,65 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Harlow</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.css">
+    <!-- <link rel="stylesheet" href="/home/josh/Desktop/Github-IO-website/bulma/css/bulma.css"> -->
+    <!-- <link rel="stylesheet" href="/home/josh/Desktop/Github-IO-website/CSS/mystyle.css"> -->
+    <link rel="stylesheet" href="/home/josh/Desktop/Github-IO-website/CSS/bulmawatch.min.css">
+    <link rel="stylesheet" href="/home/josh/Desktop/Github-IO-website/CSS/mystyle.css">
+    <script src="https://kit.fontawesome.com/e55be4105d.js" crossorigin="anonymous"></script>
   </head>
-  <button class="button is-info">
-    Home
+
+  <button id='toggle'>
+    Toggle Theme
   </button>
-  <button class="button is-info">
-    Thoughts
-  </button>
-  <button class="button is-info">
-    About
-  </button>
+
   <body>
-  <section class="section">
+<!-- HOME SECTION-->
+<section id="Home" class="section is-medium">
     <div class="container">
       <h1 class="title">
-        Website for the win!
+        Project for Ropper's Academy
       </h1>
       <p class="subtitle">
-        My first website using <strong>Bulma</strong> from Ropper Academy's Computing Fundamental!
+        My first website using Bulma from Ropper Academy's <a href="https://www.roppers.org/courses/fundamentals">Computing Fundamental</a>!
+      </p>
+      <p>
+        <button class="button is-info">
+          <a href="#Home"> Home</a>
+         </button>
+         <button class="button is-info">
+           <a href="#Thoughts">Thoughts</a>
+         </button>
+         <button class="button is-info">
+           About
+         </button>
       </p>
     </div>
   </section>
+<!-- THOUGHTS SECTION-->
+<section id="Thoughts" class="section is-medium">
+  <div class="container">
+    <h1 class="title is-2">Impressions on Computing Fundamentals</h1>
+    <p class="subtitle">
+      Computing Fundamentals was a pretty interesting hands on approach to learning the basics of Cyber security or more specifically Linux OS & Linux Command line.
+      Much of the lessons & activities revolve around understanding how Linux works as an OS, the command line commands that can be used & OvertheWire Bandit's Wargames as the means to get your hands dirty & understand how to play around with Linux. This is not to say Windows or MacOS cannot be used, but there seems to be more tools or OS that are using Linux as the basis.
+    </p>
+    <p class="subtitle">  
+      In addition, the building of a Linux lab is also a good introduction to the use of VMs which most are unlikely to have played around with or used on a daily basis. In learning how to setup VMs, I see the potential of running multiple VMs on a single machine which saves time & effort of having to setup multiple machines for different purposes. The ability to spin up VMs as & when required is pretty useful & helpful in playing around or testing stuff out without worrying that the actual machine is aversely affected.
+    </p>
+  </div>
+</section>
+
+<footer class="footer" footer>
+  <div class="content has-text-centered">
+    <p>Project by Joshua Koh</p>
+    <a ref="https://www.bulma.io">
+      <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="130" height="30">
+    </a>
+  </div>
+</footer>
+
   </body>
+  
+  <script src="index.js"></script>
+  
 </html>
